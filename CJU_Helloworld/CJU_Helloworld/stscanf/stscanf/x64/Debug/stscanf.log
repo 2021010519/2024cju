@@ -1,0 +1,2 @@
+﻿소스1.obj : error LNK2005: main이(가) 소스.obj에 이미 정의되어 있습니다.
+C:\Users\User\Documents\GitHub\2024cju\CJU_Helloworld\CJU_Helloworld\stscanf\x64\Debug\stscanf.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.

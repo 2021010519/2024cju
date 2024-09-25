@@ -1,0 +1,3 @@
+﻿  소스.cpp
+C:\Users\User\Documents\GitHub\2024cju\3_sc\3_sc\소스.cpp(6,9): warning C4101: 'hi' :참조되지 않은 지역 변수입니다.
+  3_sc.vcxproj -> C:\Users\User\Documents\GitHub\2024cju\3_sc\x64\Debug\3_sc.exe
