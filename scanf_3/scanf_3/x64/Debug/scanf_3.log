@@ -1,1 +1,2 @@
-﻿  scanf_3.vcxproj -> C:\Users\User\Documents\GitHub\2024cju\scanf_3\x64\Debug\scanf_3.exe
+﻿  소스.cpp
+C:\Users\User\Documents\GitHub\2024cju\scanf_3\scanf_3\소스.cpp(13): error C4700: 초기화되지 않은 'r' 지역 변수를 사용했습니다.
