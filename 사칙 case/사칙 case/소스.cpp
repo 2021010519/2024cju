@@ -11,21 +11,28 @@ int main()
 	scanf_s("%d %c %d", &x, &ro, sizeof(ro), &y);
 		switch (ro)
 		{
-			{case '+':
+			case '+':
+			{
 				end = x + y;
 				break;
 			}
-			{case '-':
+			case '-':
+			{
 				end = x - y;
-				break; }
-			{case '*':
-
+				break; 
+			}
+			case '*':
+			{
 				end = x * y;
-				break; }
-			{case ' /':
+				break;
+			}
+			case ' /':
+			{
 				end = x / y;
-				break; }
-			{default:
+				break; 
+			}
+			default:
+			{
 				end = 0; }
 
 	}
