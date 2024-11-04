@@ -63,31 +63,34 @@ int main(void)
 
             switch (nPlayerrps)
             {
-            case ROCK:
-                if (nComrps == ROCK)
-                    printf("sam sam\n");
-                else if (nComrps == PAPER)
-                    printf("you lose..\n");
-                else
-                    printf("you win!\n");
-                break;
-            case PAPER:
-                if (nComrps == ROCK)
-                    printf("you win!\n");
-                else if (nComrps == PAPER)
-                    printf("sam sam\n");
-                else
-                    printf("you lose..\n");
-                break;
+                {case ROCK:
+                    if (nComrps == ROCK)
+                        printf("sam sam\n");
+                    else if (nComrps == PAPER)
+                        printf("you lose..\n");
+                    else
+                        printf("you win!\n");
+                    break;
+                }
+                {case PAPER:
+                    if (nComrps == ROCK)
+                        printf("you win!\n");
+                    else if (nComrps == PAPER)
+                        printf("sam sam\n");
+                    else
+                        printf("you lose..\n");
+                    break;
+                }
             case SCISSORS:
-                if (nComrps == ROCK)
-                    printf("you lose..\n");
-                else if (nComrps == PAPER)
-                    printf("you win!\n");
-                else
-                    printf("sam sam\n");
-                break;
-            default:
+            {if (nComrps == ROCK)
+                printf("you lose..\n");
+            else if (nComrps == PAPER)
+                printf("you win!\n");
+            else
+                printf("sam sam\n");
+            break;
+            }
+            {default:
                 printf("wow; error\n");
                 break;
             }
