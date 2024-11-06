@@ -1,0 +1,4 @@
+﻿  앞뒤.cpp
+C:\Users\User\Documents\GitHub\2024cju\퐁당 퐁당 동전 던짖\퐁당 퐁당 동전 던짖\앞뒤.cpp(94,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'double'입니다.
+C:\Users\User\Documents\GitHub\2024cju\퐁당 퐁당 동전 던짖\퐁당 퐁당 동전 던짖\앞뒤.cpp(94,12): warning C4477: 'printf' : 서식 문자열 '%d'에 'int' 형식의 인수가 필요하지만 variadic 인수 2의 형식이 'double'입니다.
+  퐁당 퐁당 동전 던짖.vcxproj -> C:\Users\User\Documents\GitHub\2024cju\퐁당 퐁당 동전 던짖\x64\Debug\퐁당 퐁당 동전 던짖.exe
