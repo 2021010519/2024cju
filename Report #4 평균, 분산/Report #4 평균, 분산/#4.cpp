@@ -8,7 +8,7 @@
 
 int nNum[Max_Size];
 
-// ÃÑÇÕ °è»ê ÇÔ¼ö //
+// ì´í•© ê³„ì‚° í•¨ìˆ˜ //
 void nCalculate_Sum(int* nArr, int nSize, int* nResult)
 {
     *nResult = 0;
@@ -18,21 +18,29 @@ void nCalculate_Sum(int* nArr, int nSize, int* nResult)
     }
 }
 
-// ºĞ»ê °è»ê ÇÔ¼ö//
-double dCalculate_Variance(int* nArr, int nSize, double dMean)
+// í‰ê·  ê³„ì‚° í•¨ìˆ˜ //
+void dCalculate_Mean(int* nArr, int nSize, double* dResult)
 {
-    double dResult = 0.0;
-    for (int i = 0; i < nSize; i++) {
-        dResult += pow((nArr[i] - dMean), 2);
-    }
-    dResult /= nSize;
-    return dResult;  // ºĞ»ê ¹İÈ¯//
+    int nSum = 0;
+    nCalculate_Sum(nArr, nSize, &nSum);
+    *dResult = (double)nSum / nSize;
 }
 
-// Ç¥ÁØÆíÂ÷ °è»ê ÇÔ¼ö //
-void Calculate_Stddev(double dVariance, double* dResult)
+// ë¶„ì‚° ê³„ì‚° í•¨ìˆ˜ //
+void dCalculate_Variance(int* nArr, int nSize, double* dMean, double* dResult)
 {
-    *dResult = sqrt(dVariance);
+    *dResult = 0.0;
+    for (int i = 0; i < nSize; i++)
+    {
+        *dResult += pow((nArr[i] - *dMean), 2);
+    }
+    *dResult /= nSize; // ë¶„ì‚° ë°˜í™˜ //
+}
+
+// í‘œì¤€í¸ì°¨ ê³„ì‚° í•¨ìˆ˜ //
+void Calculate_Stddev(double* dVariance, double* dResult)
+{
+    *dResult = sqrt(*dVariance);
 }
 
 int main()
@@ -45,13 +53,10 @@ int main()
     double dVariance = 0.0;
     double dStddev = 0.0;
 
-    dMean = (double)nSum / Choice_Size; //Æò±Õ//
-
-
     srand(time(NULL));
 
-    // ¹«ÀÛÀ§ Á¤¼ö 100°³ »ı¼º//
-    printf("Generated 100 random numbers:\n");
+    // ë¬´ì‘ìœ„ ì •ìˆ˜ 100ê°œ ìƒì„± //
+    printf("100 random numbers:\n");
     for (int i = 0; i < Max_Size; i++)
     {
         nNum[i] = (rand() % (nUpperBound - nLowerBound + 1)) + nLowerBound;
@@ -61,7 +66,7 @@ int main()
         }
     }
 
-    // ¹«ÀÛÀ§·Î 10°³ÀÇ Á¤¼ö ÃßÃâ//
+    // ë¬´ì‘ìœ„ë¡œ 10ê°œì˜ ì •ìˆ˜ ì¶”ì¶œ //
     printf("\Randomly selected 10 numbers:\n");
     for (int i = 0; i < Choice_Size; i++)
     {
@@ -70,16 +75,16 @@ int main()
     }
     printf("\n");
 
-    // ÃÑÇÕ °è»ê ÇÔ¼ö ºÒ·¯¿À±â//
-    nCalculate_Sum(nChoice, Choice_Size, &nSum);
+    // í‰ê·  ê³„ì‚° //
+    dCalculate_Mean(nChoice, Choice_Size, &dMean);
 
-    // ºĞ»ê °è»ê ÇÔ¼ö ºÒ·¯¿À±â //
-    dVariance = dCalculate_Variance(nChoice, Choice_Size, dMean);
+    // ë¶„ì‚° ê³„ì‚° //
+    dCalculate_Variance(nChoice, Choice_Size, &dMean, &dVariance);
 
-    // Ç¥ÁØÆíÂ÷ °è»ê ÇÔ¼ö ºÒ·¯¿À±â//
-    Calculate_Stddev(dVariance, &dStddev);
+    // í‘œì¤€í¸ì°¨ ê³„ì‚° //
+    Calculate_Stddev(&dVariance, &dStddev);
 
-    // °á°ú Ãâ·Â//
+    // ê²°ê³¼ ì¶œë ¥ //
     printf("\Results:\n");
     printf("Sum: %d\n", nSum);
     printf("Variance: %.2f\n", dVariance);
