@@ -1,2 +1,6 @@
 ﻿  소스.cpp
-  Project1.vcxproj -> C:\Users\User\Documents\GitHub\2024cju\Project1\x64\Debug\Project1.exe
+C:\Users\User\Documents\GitHub\2024cju\Project1\Project1\소스.cpp(56,2): error C2014: 전처리기 명령은 공백 아닌 문자로 시작해야 합니다.
+C:\Users\User\Documents\GitHub\2024cju\Project1\Project1\소스.cpp(66,3): error C2371: 'Data': 재정의. 기본 형식이 다릅니다.
+C:\Users\User\Documents\GitHub\2024cju\Project1\Project1\소스.cpp(11): message : 'Data' 선언을 참조하십시오.
+C:\Users\User\Documents\GitHub\2024cju\Project1\Project1\소스.cpp(69,5): error C2084: 'int main(void)' 함수에 이미 본문이 있습니다.
+C:\Users\User\Documents\GitHub\2024cju\Project1\Project1\소스.cpp(14): message : 'main'의 이전 정의를 참조하십시오.
