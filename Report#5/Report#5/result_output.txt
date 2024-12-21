@@ -1,0 +1,166 @@
+Class 1:
+  Student 1: 
+    ID: 1001
+    Name: Alice
+    Scores: Korean: 85 Math: 90 English: 78
+    Average: 84.33
+    Class Rank: 8
+    Overall Rank: 15
+
+  Student 2: 
+    ID: 1002
+    Name: Bob
+    Scores: Korean: 88 Math: 76 English: 94
+    Average: 86.00
+    Class Rank: 3
+    Overall Rank: 8
+
+  Student 3: 
+    ID: 1003
+    Name: Charlie
+    Scores: Korean: 92 Math: 81 English: 85
+    Average: 86.00
+    Class Rank: 3
+    Overall Rank: 8
+
+  Student 4: 
+    ID: 1004
+    Name: Diana
+    Scores: Korean: 79 Math: 88 English: 91
+    Average: 86.00
+    Class Rank: 3
+    Overall Rank: 8
+
+  Student 5: 
+    ID: 1005
+    Name: Edward
+    Scores: Korean: 83 Math: 87 English: 80
+    Average: 83.33
+    Class Rank: 9
+    Overall Rank: 18
+
+  Student 6: 
+    ID: 1006
+    Name: Frank
+    Scores: Korean: 86 Math: 84 English: 88
+    Average: 86.00
+    Class Rank: 3
+    Overall Rank: 8
+
+  Student 7: 
+    ID: 1007
+    Name: Grace
+    Scores: Korean: 91 Math: 80 English: 79
+    Average: 83.33
+    Class Rank: 9
+    Overall Rank: 18
+
+  Student 8: 
+    ID: 1008
+    Name: Hannah
+    Scores: Korean: 78 Math: 92 English: 86
+    Average: 85.33
+    Class Rank: 7
+    Overall Rank: 14
+
+  Student 9: 
+    ID: 1009
+    Name: Irene
+    Scores: Korean: 85 Math: 89 English: 91
+    Average: 88.33
+    Class Rank: 1
+    Overall Rank: 2
+
+  Student 10: 
+    ID: 1010
+    Name: Jack
+    Scores: Korean: 90 Math: 88 English: 84
+    Average: 87.33
+    Class Rank: 2
+    Overall Rank: 5
+
+  Class 1 Average: 85.60
+Class 2:
+  Student 1: 
+    ID: 2001
+    Name: Kevin
+    Scores: Korean: 81 Math: 77 English: 89
+    Average: 82.33
+    Class Rank: 10
+    Overall Rank: 20
+
+  Student 2: 
+    ID: 2002
+    Name: Laura
+    Scores: Korean: 85 Math: 88 English: 90
+    Average: 87.67
+    Class Rank: 3
+    Overall Rank: 4
+
+  Student 3: 
+    ID: 2003
+    Name: Michael
+    Scores: Korean: 92 Math: 80 English: 85
+    Average: 85.67
+    Class Rank: 6
+    Overall Rank: 12
+
+  Student 4: 
+    ID: 2004
+    Name: Nancy
+    Scores: Korean: 84 Math: 90 English: 88
+    Average: 87.33
+    Class Rank: 4
+    Overall Rank: 5
+
+  Student 5: 
+    ID: 2005
+    Name: Olivia
+    Scores: Korean: 79 Math: 85 English: 87
+    Average: 83.67
+    Class Rank: 8
+    Overall Rank: 16
+
+  Student 6: 
+    ID: 2006
+    Name: Paul
+    Scores: Korean: 91 Math: 92 English: 81
+    Average: 88.00
+    Class Rank: 2
+    Overall Rank: 3
+
+  Student 7: 
+    ID: 2007
+    Name: Queen
+    Scores: Korean: 86 Math: 83 English: 88
+    Average: 85.67
+    Class Rank: 6
+    Overall Rank: 12
+
+  Student 8: 
+    ID: 2008
+    Name: Robert
+    Scores: Korean: 83 Math: 86 English: 82
+    Average: 83.67
+    Class Rank: 8
+    Overall Rank: 16
+
+  Student 9: 
+    ID: 2009
+    Name: Sarah
+    Scores: Korean: 88 Math: 89 English: 91
+    Average: 89.33
+    Class Rank: 1
+    Overall Rank: 1
+
+  Student 10: 
+    ID: 2010
+    Name: Thomas
+    Scores: Korean: 90 Math: 84 English: 85
+    Average: 86.33
+    Class Rank: 5
+    Overall Rank: 7
+
+  Class 2 Average: 85.97
+
+Overall Average: 85.78
